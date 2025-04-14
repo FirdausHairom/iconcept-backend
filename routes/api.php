@@ -24,5 +24,5 @@ Route::get('/users', [UserController::class, 'index']);
 //CRUD for product
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/create', [UserController::class, 'create']);
-//Route::get('/update', [UserController::class, 'update']);
-//Route::get('/delete', [UserController::class, 'delete']);
+Route::get('/update', [UserController::class, 'update']);
+Route::get('/delete', [UserController::class, 'delete']);
